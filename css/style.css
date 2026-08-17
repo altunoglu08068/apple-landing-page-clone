@@ -11,6 +11,10 @@ body {
     color: #1d1d1f;
 }
 
+/* -------------------------------------------------------------
+   Navigasyon (Navigation)
+   ------------------------------------------------------------- */
+
 .navbar {
     position: sticky;
     /* Navbar'ı sayfanın üst kısmına yapışık hale getirdim. */
@@ -52,4 +56,47 @@ body {
 .navbar a:hover {
     opacity: 1;
     /* Hover durumunda linklerin tamamen görünür olmasını sağladım. */
+}
+
+/* -------------------------------------------------------------
+   DUYURU BANDI (INFO BANNER)
+   ------------------------------------------------------------- */
+.info {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 16px 16px;
+    font-size: 14px;
+    font-weight: 400;
+    color: #1d1d1f;
+    text-align: center;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.04);
+}
+
+.info p {
+    line-height: 1.4;
+}
+
+.info sup {
+    font-size: 9px;
+    margin-right: 4px;
+}
+
+.info-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 4px;
+    color: #0071e3;
+    text-decoration: none;
+    margin-left: 2px;
+}
+
+.info-link:hover {
+    text-decoration: underline;
+}
+
+.info-icon {
+    display: inline-block;
+    vertical-align: middle;
 }

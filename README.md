@@ -14,6 +14,12 @@ Apple'ın modern ve minimalist web sitesi arayüzünün **HTML5** ve **CSS3** ku
   - `backdrop-filter: blur(20px)` ile buzlu cam (frosted glass) efekti
   - Flexbox (`gap`, `align-items`, `justify-content`) ile responsive hizalama
   - Minimalist hover geçişleri (`transition`)
+  - Orijinal Apple hedef bağlantıları (URL)
+
+- [x] **Duyuru & Kampanya Bandı (Promo Ribbon):**
+  - Inline SVG (çember içi artı ikonu) ve semantik `<sup>` kullanımı
+  - `display: inline-flex` ile ikon-metin dikey hizalaması
+  - Apple mavisi etkileşimli link yapısı
 
 ---
 
