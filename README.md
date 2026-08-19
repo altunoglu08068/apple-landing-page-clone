@@ -21,6 +21,12 @@ Apple'ın modern ve minimalist web sitesi arayüzünün **HTML5** ve **CSS3** ku
   - `display: inline-flex` ile ikon-metin dikey hizalaması
   - Apple mavisi etkileşimli link yapısı
 
+- [x] **Store Header:**
+  - Büyük `Store` başlığı
+  - Sağ hizalı ürün açıklaması
+  - Uzmanla görüşme ve Apple Store bulma bağlantıları
+  - Flexbox ile dengeli sağ-sol yerleşim
+
 ---
 
 ## 🛠️ Kullanılan Teknolojiler
